@@ -3,8 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  serv_url:"http://localhost:3000"
+  production: true,
+  serv_url:"https://crm001.herokuapp.com"
 };
 
 /*
