@@ -1,6 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 
 .body-class {
-   /* background-color: ;*/
+    background-color:white !important;
     color: black !important;
+}
+
+#avatar {
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#avatar:focus {
+    outline: 0;
+}
+
+a,
+a:focus,
+a:active,
+button,
+button:focus,
+button:active {
+    outline: 0 !important;
 }

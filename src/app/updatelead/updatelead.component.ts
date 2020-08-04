@@ -37,7 +37,7 @@ export class UpdateleadComponent implements OnInit {
       delete this.obj['ownerName'];
       delete this.obj['createdOn'];
       // console.log(this.obj);
-      this.serv.getAllUsers().subscribe((data)=>{
+      this.serv.getAllEmployees().subscribe((data)=>{
         this.displayLoader=false;
         this.employees=data['users'];
         this.obj['owner']=this.employees.findIndex(item=>item.email===this.obj['owner']);

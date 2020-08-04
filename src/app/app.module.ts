@@ -21,6 +21,17 @@ import { HomeComponent } from './home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AddleadComponent } from './addlead/addlead.component';
 import { UpdateleadComponent } from './updatelead/updatelead.component';
+import { AddcontactComponent } from './addcontact/addcontact.component';
+import { AddservicerequetsComponent } from './addservicerequets/addservicerequets.component';
+import { AdduserComponent } from './adduser/adduser.component';
+import { ConfirmOrderComponent } from './confirm-order/confirm-order.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { ManagerClosingLeadComponent } from './manager-closing-lead/manager-closing-lead.component';
+import { ProfileComponent } from './profile/profile.component';
+import { UpdatecontactComponent } from './updatecontact/updatecontact.component';
+import { UsersComponent } from './users/users.component';
+import { UsershomeComponent } from './usershome/usershome.component';
+import { ServiceRequestsComponent } from './service-requests/service-requests.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +46,17 @@ import { UpdateleadComponent } from './updatelead/updatelead.component';
     HomeComponent,
     AddleadComponent,
     UpdateleadComponent,
+    AddcontactComponent,
+    AddservicerequetsComponent,
+    AdduserComponent,
+    ConfirmOrderComponent,
+    ContactsComponent,
+    ManagerClosingLeadComponent,
+    ProfileComponent,
+    UpdatecontactComponent,
+    UsersComponent,
+    UsershomeComponent,
+    ServiceRequestsComponent,
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,8 @@ export const environment = {
   serv_url:"https://crm001.herokuapp.com"
 };
 
+ // serv_url:"http://localhost:3000"
+
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
